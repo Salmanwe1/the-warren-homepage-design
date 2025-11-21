@@ -1,6 +1,12 @@
 import { Button } from "@/components/ui/button";
 
-function HeroContent({title, ctaPrimary, ctaSecondary}) {
+type HeroContentProps = {
+  title: string;
+  ctaPrimary: string;
+  ctaSecondary: string;
+};
+
+function HeroContent({ title, ctaPrimary, ctaSecondary }: HeroContentProps) {
   return (
     <div className="w-full flex flex-col items-center justify-center text-center text-white space-y-6">
       <h1 className="text-7xl leading-[70px] font-light tracking-wide max-w-[900px]">

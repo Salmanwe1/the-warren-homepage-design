@@ -1,7 +1,10 @@
 import { SquareCheckBig } from "lucide-react";
-import React from "react";
 
-function HeroBlueTray({items}) {
+type HeroBlueTrayProps = {
+  items: string[];
+};
+
+function HeroBlueTray({ items }: HeroBlueTrayProps) {
   return (
     <div className="w-full bg-[#0e1a35] py-6 px-4 flex items-center justify-center gap-16 text-white text-sm">
       {items.map((item, idx) => (

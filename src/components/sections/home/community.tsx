@@ -14,7 +14,7 @@ function Community() {
 
         <div className="text-lg text-stone-700 leading-8 tracking-[0.02em]">
           <p className="">
-            The Warren is also a vibrant hub for our members and local residents. It’s where banter can be heard from afar for Fish & Chip Fridays, see families relaxing by our playground, and find wagging tails warmly welcomed in the bar! With an exciting calendar of events, from live entertainment to our annual fireworks display, there's always something happening, and a reason to gather.
+            The Warren is also a vibrant hub for our members and local residents. It’s where banter can be heard from afar for Fish & Chip Fridays, see families relaxing by our playground, and find wagging tails warmly welcomed in the bar! With an exciting calendar of events, from live entertainment to our annual fireworks display, there&apos;s always something happening, and a reason to gather.
           </p>
         </div>
 
